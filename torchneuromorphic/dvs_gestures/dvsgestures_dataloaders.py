@@ -33,9 +33,9 @@ mapping = { 0 :'Hand Clapping'  ,
             10:'Other'}
 
 class DVSGestureDataset(NeuromorphicDataset):
-    resources_url = [['Manual Download: https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8/file/211521748942?sb=/details',None, 'DvsGesture.tar.gz']]
+    resources_url = [['https://public.boxcloud.com/d/1/b1!edl9nIySCYJgdBLyQcRAkKngxghPdyMrAyk4j9Skf3pNkcBcQNcU3G8HhjQkOF5Y7vH6HkgeyFeq3DQ4TEVqoG9oZj15M7wIXph-1s4m6aS9O2vF8BYZrsYceTDKlBipg2LU-5GRTkRbOsb3eRA00YMFELBtiRZzDnneEtjjZUad1VSfpi9cWgB2uiHob3w5uu2hdoamHkoVOcf3AV0LCbbwfW26gLubcS9hiVIdrfMt0LxmQsbsrQpsEE2dYJTn7E2fKTSKQUhb65HHsugq0F6v0bNK5ZbllGRbcGGO43wKj5YCfsWO4TwisWvUO6pzjsUCk5HK2KyepC6gIFtl8f2PV9O3okV0mvoiF1TmDgGihMyqoxRwdIxEnZLpU3D2qMx3j2XH1QxkGXJQA09igiZoOVMTTxR6Be2dRHG2ZJdsBa0WE5e4ZlxpNzgAsebEBFFMnE6egcPAxokVhO0TpM1lv4PcVWaXJqYf8l-qz5Ofbj3ShKGIJO_V-PFvBtrg2KsqhJi2ma0fgTznEBIDjahgccweSBalieG9k2-7K7hNYa59kuXg9yL1N6I3abU5JR3cCnesiEAJX5cgS6MRIf_uptRQ870ijiDRGUO4eDp58jKZSJAjXQ_wvJCmZ-3Eam6MFyTuJ_XkmV0zL76kygnHdBeTTGQjpZB3dU-ClScx0sZS3AEQWc25SGuOA5Nk9U786UOSDqhM3_khlS_GozoxIz3t6_GtrZNBRE0m-yJpX0SlGudcJ6vYLlmgL4ylZjFZHwn2oVcqw1fY_pULjRL3MjStI0xQYRa-PeuvQ4tZQvR9YXZTlc38AE8OI-NQsnifew_GXGLOxLjJb5Mmcg-27e3SsbMfcgPBDIHCIEYcz5eCdV9cTV3Sa2HPnMF0fUIaf63t1f8D8N-TEWa6MhzhrmxZ1HCaYi2Lqle9WqbVGDurEBZ5jWJ4UE8cUgz6r-B2YkqXm7oJg1SJ0xysgTGw4WX5N7nLFRSSCuQhoQ5DvnbFVKjxhaVx-IimsIDTMTExNDGgi_4S8Sz9xPPc-XT7GSLaE6gk9fB5ij8klguxXHXIu4nsDFGdTRvvHd72A2vYsS2KMV0PzSxWxg_uCE4RCwF2DTU9UFnZyH-hU7JxoDk5VAplDiXFFd104SfyMlZpVD3uCMOKwcfkXdh9dFclRA5LWDeJLXRLb7Y1HPEyi-0d6jq1RUivSksWrG2gCagAXtIDAEVOIfQcrKrlTk_kd_UET8eI9XZgBTBuPJb45g3T1zQhnwlZX0wtv0s2s2XXYz7VGpi3pjZyRow8M0Vs_KD4416JpfGpOUwDdbckvOfxSy8DNWcpI2MvawFelB-_Zw../download',None, 'DvsGesture.tar.gz']]
     directory = 'data/dvsgesture/'
-    resources_local = [directory+'raw']
+    resources_local = [directory + 'DvsGesture']
 
     def __init__(
             self, 
